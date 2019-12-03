@@ -33,7 +33,7 @@ def parameter_parser():
 
     return args
 
-
+  
 if __name__ == "__main__":
     args = parameter_parser()
     
@@ -88,5 +88,3 @@ if __name__ == "__main__":
     print('Test average precision: {:.4f}'.format(average_precision))
     print('Test p/r (f1): {:.4f}/{:.4f} ({:.4f})'.format(precision, recall, f1))
     print('Test auc score : {:.4f}'.format(auc_score))
-
-    
